@@ -16,7 +16,7 @@ A comprehensive Streamlit application that creates an AI assistant with Retrieva
 
 ### 1. Install Dependencies
 ```bash
-pip install -r requirements_app.txt
+pip install -r requirements.txt
 ```
 
 ### 2. Get Groq API Key
@@ -48,7 +48,7 @@ streamlit run generative_ai_app.py
 ```
 RAG_Chatbot/
 ├── generative_ai_app.py    # Main Streamlit application
-├── requirements_app.txt    # Application dependencies
+├── requirements.txt    # Application dependencies
 └── README.md              # This file
 ```
 
@@ -75,5 +75,6 @@ RAG_Chatbot/
 - Verify your Groq API key is valid
 - Check that PDF files are not corrupted
 - Restart the application if session state becomes corrupted
+
 
 
