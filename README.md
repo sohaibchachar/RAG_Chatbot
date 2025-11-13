@@ -4,7 +4,7 @@ A comprehensive Streamlit application that creates an AI assistant with Retrieva
 
 ## Features
 
-- 🤖 **Groq API Integration**: Uses Llama 3 8B model for fast, high-quality responses
+- 🤖 **Groq API Integration**: Uses Gemma2-9b-it model for fast, high-quality responses
 - 📄 **PDF Processing**: Upload and process PDF documents for RAG
 - 💬 **Conversation History**: Maintains context across the entire session
 - 🔑 **Session Management**: Unique session IDs with persistent state
@@ -46,9 +46,8 @@ streamlit run generative_ai_app.py
 ## File Structure
 
 ```
-Cursor_AI_code/
+RAG_Chatbot/
 ├── generative_ai_app.py    # Main Streamlit application
-├── documentation.txt       # Comprehensive code documentation
 ├── requirements_app.txt    # Application dependencies
 └── README.md              # This file
 ```
@@ -56,7 +55,7 @@ Cursor_AI_code/
 ## Technical Stack
 
 - **Frontend**: Streamlit
-- **AI Model**: Groq Llama 3 8B
+- **AI Model**: Groq Gemma2-9b-it
 - **Vector DB**: Chroma
 - **Embeddings**: HuggingFace Sentence Transformers
 - **Framework**: LangChain
@@ -77,4 +76,4 @@ Cursor_AI_code/
 - Check that PDF files are not corrupted
 - Restart the application if session state becomes corrupted
 
-For detailed technical documentation, see `documentation.txt`.
+
